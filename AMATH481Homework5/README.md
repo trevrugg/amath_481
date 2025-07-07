@@ -17,11 +17,11 @@ With the function detailed above, we can now frame the problem in terms of a sys
 
 The purpose of this exercise is to demonstrate the power of using FFT's in this context. Specifically, FFT's allow us to solve the streamfunction differential equation in Step 1. of **vorticity_rhs_fft** with extreme efficiency. We examine the execution time when using FFT's in this context, compared to more crude and computationally expensive methods like \texttt{solve} and LU-decompositions. Even leveraging sparse matrices, more computationally efficient tools for matrix representation, resulted in much longer execution times.
 
-We then plot the vorticity over time as well as generate an animation for a more satisfying view: (https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_vorticity.gif). 
+We then plot the vorticity over time as well as generate an animation for a more satisfying view: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_vorticity.gif. 
 
 Next, we experiment with different initial vorticies with our FFT solver on the streamfunction equation (2). We look at the bahvior of
 
-1. Two oppositely "charged" Gaussian vorticies next to each other, i.e. with different signed amplitudes: [insert link]
-2. Two same "charged" Gaussian vortices next to each other: [insert_link]
-3. Two oppositely "charged" Gaussian vortices that collide: [insert link]
-4. A random assortment of 10 vorticies with various different starting positions, amplitudes, strengths, charges, ellipticity: [insert link]
+1. Two oppositely "charged" Gaussian vorticies next to each other, i.e. with different signed amplitudes: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_opposite_vortices.gif
+2. Two same "charged" Gaussian vortices next to each other: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_same_vortices.gif
+3. Two oppositely "charged" Gaussian vortices that collide: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_collision_vortices.gif
+4. A random assortment of 10 vorticies with various different starting positions, amplitudes, strengths, charges, ellipticity: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_random_vortices.gif
