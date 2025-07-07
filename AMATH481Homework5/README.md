@@ -10,7 +10,7 @@ We assume a Gaussian initial vorticity and attempt to solve the system of differ
 
 We then define a function **vorticity_rhs_{method}** that determines the right-hand side of (1) each time step:
 
-1. Taking the current voriticty $\omega$ as an input, we solve for the current streamfunction $\psi$ from equation (2) using a predetermined method for that trial, which will be explained later.
+1. Taking the current vorticity $\omega$ as an input, we solve for the current streamfunction $\psi$ from equation (2) using a predetermined method for that trial, which will be explained later.
 2. With the current vorticity and resulting streamfunction, we use the derivative operators to calculate the necessary derivatives in (1), which can be used to determine $\omega_t$ at that time step.
 
 With the function detailed above, we can now frame the problem in terms of a system of ordinary differential equations, which can be solved using **solve_ivp** from **scipy.integrate**.
