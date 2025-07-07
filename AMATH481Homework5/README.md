@@ -17,7 +17,7 @@ With the function detailed above, we can now frame the problem in terms of a sys
 
 The purpose of this exercise is to demonstrate the power of using FFT's in this context. Specifically, FFT's allow us to solve the streamfunction differential equation in Step 1. of **vorticity_rhs_fft** with extreme efficiency. We examine the execution time when using FFT's in this context, compared to more crude and computationally expensive methods like \texttt{solve} and LU-decompositions. Even leveraging sparse matrices, more computationally efficient tools for matrix representation, resulted in much longer execution times.
 
-We then plot the vorticity over time as well as generate an animation for a more satisfying view: [insert link].
+We then plot the vorticity over time as well as generate an animation for a more satisfying view: (https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_vorticity.gif). 
 
 Next, we experiment with different initial vorticies with our FFT solver on the streamfunction equation (2). We look at the bahvior of
 
