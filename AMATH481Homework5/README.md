@@ -4,4 +4,6 @@ In this project, we examine how to solve Vorticity-Streamfunction equations nume
 
 (2) $\nabla^2 \psi = \omega$,
 
-where $[\psi, \omega] = \psi_x \omega_y - \psi_y \omega_x$.
+where $[\psi, \omega] = \psi_x \omega_y - \psi_y \omega_x, \nabla \in \mathbb{R}$. 
+
+We accomplish
