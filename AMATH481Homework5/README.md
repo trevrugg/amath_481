@@ -6,4 +6,4 @@ In this project, we examine how to solve Vorticity-Streamfunction equations nume
 
 where $[\psi, \omega] = \psi_x \omega_y - \psi_y \omega_x, \nu \in \mathbb{R}$. 
 
-We accomplish this task 
+We assume a Gaussian initial vorticity and attempt to solve the system of differential equations over the box $[-10,10] \times [-10, 10] \in \mathbb{R}^2$.
