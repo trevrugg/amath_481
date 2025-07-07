@@ -19,7 +19,7 @@ The purpose of this exercise is to demonstrate the power of using FFT's in this 
 
 We then plot the vorticity over time as well as generate an animation for a more satisfying view: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_vorticity.gif. 
 
-Next, we experiment with different initial vorticies with our FFT solver on the streamfunction equation (2). We look at the bahvior of
+Next, we experiment with different initial vorticies with our FFT solver on the streamfunction equation (2). We look at the behavior of
 
 1. Two oppositely "charged" Gaussian vorticies next to each other, i.e. with different signed amplitudes: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_opposite_vortices.gif
 2. Two same "charged" Gaussian vortices next to each other: https://github.com/trevrugg/amath_481/blob/main/AMATH481Homework5/fft_same_vortices.gif
